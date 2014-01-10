@@ -87,7 +87,10 @@
     }
 
     Modal.prototype.hide = function (e) {
-        if (e) e.preventDefault()
+        if (e) {
+          if(!e.preventDefault) return;
+          e.preventDefault()
+        }
 
         e = $.Event('hide.bs.modal')
 

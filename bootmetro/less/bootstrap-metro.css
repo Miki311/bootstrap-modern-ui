@@ -1,3 +1,6 @@
+.bootstrap-metro-version:after {
+  content: 'bootstrap-3.0.3-metro-1.0.0';
+}
 .no-border-radius {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -265,7 +268,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -347,7 +350,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1941,7 +1944,7 @@ textarea.input-lg {
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -10218,19 +10221,20 @@ Page header back button
 */
 #header-container {
   display: inline-block;
-  vertical-align: top;
-  margin-left: 50px;
-  line-height: 38px;
-  height: 48px;
+  vertical-align: middle;
+  margin-left: 48px;
 }
 #header-container h5 {
   font-size: 14px;
 }
 #header-container a.header-dropdown {
-  font-size: 26px;
-  font-weight: 200;
-  line-height: 34px;
+  font-family: "Segoe UI Light", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
   text-decoration: none;
+}
+#header-container a.header-dropdown small {
+  font-size: 32px;
 }
 #header-container a.header-dropdown .caret {
   font-size: 24px;
@@ -10260,7 +10264,7 @@ Page header back button
 #nav-bar .win-backbutton {
   position: absolute;
   left: 0;
-  top: 30px;
+  top: 14px;
 }
 .modal-open {
   overflow: hidden;

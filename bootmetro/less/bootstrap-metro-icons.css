@@ -1,3 +1,6 @@
+.bootstrap-metro-version:after {
+  content: 'bootstrap-3.0.3-metro-1.0.0';
+}
 @font-face {
   font-family: 'IcoMoon';
   src: url('../fonts/IcoMoon.eot');
