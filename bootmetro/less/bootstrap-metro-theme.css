@@ -5825,7 +5825,9 @@ button.win-command .win-label {
   position: relative;
   display: block;
   margin-top: 3px;
-  width: 100%;
+  max-width: 144px;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
