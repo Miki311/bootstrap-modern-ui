@@ -9781,10 +9781,10 @@ you can use the generic selector below, but it's slower:
   border: 0;
   margin: 0;
   min-width: 14px;
-  min-height: 18px;
+  min-height: 16px;
   padding: 0;
   font-family: 'IcoMoon';
-  font-size: inherit;
+  font-size: large;
   font-weight: normal;
   line-height: 1;
   text-indent: 0;
@@ -9919,7 +9919,7 @@ hr.win-command {
 AppBar Edgy Container
 */
 .win-appbar {
-  z-index: 1001;
+  /*z-index: 1001;*/
   width: 100%;
   height: auto;
   left: 0;

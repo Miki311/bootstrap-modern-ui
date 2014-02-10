@@ -1,8 +1,3 @@
-//
-// Dropdown menus
-// --------------------------------------------------
-
-// Dropdown arrow/caret
 .caret {
   border: 0;
   margin: 0;
@@ -21,13 +16,9 @@
   cursor: pointer;
   vertical-position: bottom;
 }
-
 .caret:after {
   content: "\e12c";
 }
-
-.dropup {
-  .caret:after {
-    content: "\e131";
-  }
+.dropup .caret:after {
+  content: "\e131";
 }
