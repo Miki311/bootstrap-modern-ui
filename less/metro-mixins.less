@@ -1,0 +1,25 @@
+@import "../bootstrap/less/mixins.less"; // inherit from Bootstrap
+
+// CSS3 PROPERTIES
+// --------------------------------------------------
+
+// Border Radius
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// NO Border Radius
+.no-border-radius {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+// NO Drop shadows
+.no-box-shadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
